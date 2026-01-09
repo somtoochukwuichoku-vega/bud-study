@@ -1,0 +1,742 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ModelForm",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_qsl",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "budStudy.base.migrations.0001_initial",
+        "description": "budStudy.base.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Room',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=200)),",
+        "detail": "budStudy.base.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "budStudy.base.migrations.0002_topic_room_host_message_room_topic",
+        "description": "budStudy.base.migrations.0002_topic_room_host_message_room_topic",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Topic',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "budStudy.base.migrations.0002_topic_room_host_message_room_topic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseConfig",
+        "kind": 6,
+        "importPath": "budStudy.base.apps",
+        "description": "budStudy.base.apps",
+        "peekOfCode": "class BaseConfig(AppConfig):\n    name = 'base'",
+        "detail": "budStudy.base.apps",
+        "documentation": {}
+    },
+    {
+        "label": "RoomForm",
+        "kind": 6,
+        "importPath": "budStudy.base.forms",
+        "description": "budStudy.base.forms",
+        "peekOfCode": "class RoomForm(ModelForm):\n    class Meta:\n        model=Room\n        fields = '__all__'",
+        "detail": "budStudy.base.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Topic",
+        "kind": 6,
+        "importPath": "budStudy.base.models",
+        "description": "budStudy.base.models",
+        "peekOfCode": "class Topic(models.Model):\n    name = models.CharField(max_length=200)   \n    def __str__(self):\n        return self.name\nclass Room(models.Model):\n    host=  models.ForeignKey(User, on_delete=models.SET_NULL, null=True)\n    topic=  models.ForeignKey(Topic, on_delete=models.SET_NULL, null=True)\n    name = models.CharField(max_length=200)\n    descrription = models.TextField(null=True,blank=True)\n    # participants = ",
+        "detail": "budStudy.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "kind": 6,
+        "importPath": "budStudy.base.models",
+        "description": "budStudy.base.models",
+        "peekOfCode": "class Room(models.Model):\n    host=  models.ForeignKey(User, on_delete=models.SET_NULL, null=True)\n    topic=  models.ForeignKey(Topic, on_delete=models.SET_NULL, null=True)\n    name = models.CharField(max_length=200)\n    descrription = models.TextField(null=True,blank=True)\n    # participants = \n    updated = models.DateTimeField(auto_now=True)\n    created = models.DateTimeField(auto_now_add=True) \n    class Meta:\n        ordering=['-updated', 'created']",
+        "detail": "budStudy.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 6,
+        "importPath": "budStudy.base.models",
+        "description": "budStudy.base.models",
+        "peekOfCode": "class message(models.Model):\n    user= models.ForeignKey(User, on_delete=models.CASCADE)\n    room = models.ForeignKey(Room, on_delete=models.CASCADE)\n    body = models.TextField()\n    updated = models.DateTimeField(auto_now=True)\n    created = models.DateTimeField(auto_now_add=True) \n    def __str__(self):\n        return self.body[0:50]",
+        "detail": "budStudy.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "budStudy.base.urls",
+        "description": "budStudy.base.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login/', views.loginPage, name='login'),\n    path('register/', views.registerPage, name='register'),\n    path('logout/', views.logoutUser, name='logout'),\n    path('', views.home, name='home'),\n    path('room/<str:pk>/', views.room, name='roomUrl'),\n    path('create-room/', views.createRoom, name='create-room'),\n    path('update-room/<str:pk>/', views.UpdateRoom, name='update-room'),\n    path('delete-room/<str:pk>/', views.DeleteRoom, name='delete-room'),\n]",
+        "detail": "budStudy.base.urls",
+        "documentation": {}
+    },
+    {
+        "label": "loginPage",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def loginPage(request):\n    page = 'login'\n    if request.user.is_authenticated:\n        return redirect('home')\n    if request.method == 'POST':\n        username = request.POST.get('username').lower()\n        password = request.POST.get('password')\n        # Logic moved INSIDE the POST block\n        user = authenticate(request, username=username, password=password)\n        try:",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "logoutUser",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def logoutUser(request):\n    logout(request)\n    return redirect('home')\ndef registerPage(request):\n    # page = 'register'\n    form = UserCreationForm()\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "registerPage",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def registerPage(request):\n    # page = 'register'\n    form = UserCreationForm()\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.username = user.username.lower()\n            user.save()\n            login(request, user)",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def home(request):\n    q = request.GET.get('q') if request.GET.get('q') != None else ''\n    rooms = Room.objects.filter(\n        Q(topic__name__icontains=q) |\n        Q(name__icontains = q) |\n            Q(descrription__icontains = q)\n            )\n    topics =Topic.objects.all()\n    # When rooms starts growing , learn how to filter topics by different things\n    room_count = rooms.count()",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "room",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def room(request,pk):\n    # room = None\n    # for i in rooms:\n    #     if i['id'] == pk:\n    #         room = i\n    room = Room.objects.get(id=pk)\n    messages = Room.message_set.all()\n    context = {'room':room, 'messages':messages}\n    return render(request, 'base/room.html', context)\n@login_required(login_url='login')",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "createRoom",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def createRoom(request):\n    form = RoomForm()\n    if request.method == 'POST':\n        # print(request.POST)\n        form=RoomForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('home')\n    context = {'form':form}\n    return render(request, 'base/room_form.html', context)",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateRoom",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def UpdateRoom(request, pk):\n    room = Room.objects.get(id=pk)\n    form = RoomForm(instance=room)\n    if request.user != room.host:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        # print(request.POST)\n        form=RoomForm(request.POST, instance=room)\n        if form.is_valid():\n            form.save()",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteRoom",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def DeleteRoom(request,pk):\n    room = Room.objects.get(id=pk)\n    if request.user != room.host:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        room.delete()\n        return redirect('home')\n    return render(request, 'base/delete.html', {'obj':room})",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.asgi",
+        "description": "budStudy.budStudy.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "budStudy.budStudy.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-t9)9&cms9_(=0a_8eo_r!&bdpu^h_kx40n2j%(m#35!8gmi3ro'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-t9)9&cms9_(=0a_8eo_r!&bdpu^h_kx40n2j%(m#35!8gmi3ro'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'base.apps.BaseConfig',",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'base.apps.BaseConfig',\n]\nMIDDLEWARE = [",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'budStudy.urls'",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "ROOT_URLCONF = 'budStudy.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            BASE_DIR / 'templates'\n        ],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            BASE_DIR / 'templates'\n        ],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'budStudy.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/6.0/ref/settings/#databases\ntmpPostgres = urlparse(os.getenv(\"DATABASE_URL\"))\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "tmpPostgres",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "tmpPostgres = urlparse(os.getenv(\"DATABASE_URL\"))\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': tmpPostgres.path.replace('/', ''),\n        'USER': tmpPostgres.username,\n        'PASSWORD': tmpPostgres.password,\n        'HOST': tmpPostgres.hostname,\n        'PORT': 5432,\n        'OPTIONS': dict(parse_qsl(tmpPostgres.query)),\n    }",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES['default']['OPTIONS']",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "DATABASES['default']['OPTIONS'] = {\n    'connect_timeout': 10,\n}\n# Password validation\n# https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "STATIC_URL = 'static/'",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.urls",
+        "description": "budStudy.budStudy.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('base.urls'))\n]",
+        "detail": "budStudy.budStudy.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.wsgi",
+        "description": "budStudy.budStudy.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "budStudy.budStudy.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "budStudy.manage",
+        "description": "budStudy.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'budStudy.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "budStudy.manage",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('Scripts') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len('Scripts') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "v-env.Scripts.activate_this",
+        "description": "v-env.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "v-env.Scripts.activate_this",
+        "documentation": {}
+    }
+]
