@@ -1,59 +1,10 @@
 [
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
         "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "django.db.models.deletion",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -86,6 +37,143 @@
         "description": "django.apps",
         "isExtraImport": true,
         "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -130,14 +218,6 @@
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -167,22 +247,6 @@
         "description": "django.http",
         "isExtraImport": true,
         "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -317,6 +381,15 @@
         "documentation": {}
     },
     {
+        "label": "ApiConfig",
+        "kind": 6,
+        "importPath": "budStudy.api.apps",
+        "description": "budStudy.api.apps",
+        "peekOfCode": "class ApiConfig(AppConfig):\n    name = 'api'",
+        "detail": "budStudy.api.apps",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "budStudy.base.migrations.0001_initial",
@@ -335,6 +408,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "budStudy.base.migrations.0003_alter_room_options_room_participants",
+        "description": "budStudy.base.migrations.0003_alter_room_options_room_participants",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0002_topic_room_host_message_room_topic'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='room',\n            options={'ordering': ['-updated', 'created']},\n        ),",
+        "detail": "budStudy.base.migrations.0003_alter_room_options_room_participants",
+        "documentation": {}
+    },
+    {
         "label": "BaseConfig",
         "kind": 6,
         "importPath": "budStudy.base.apps",
@@ -348,7 +430,7 @@
         "kind": 6,
         "importPath": "budStudy.base.forms",
         "description": "budStudy.base.forms",
-        "peekOfCode": "class RoomForm(ModelForm):\n    class Meta:\n        model=Room\n        fields = '__all__'",
+        "peekOfCode": "class RoomForm(ModelForm):\n    class Meta:\n        model=Room\n        fields = '__all__'\n        exclude = ['host', 'participants']",
         "detail": "budStudy.base.forms",
         "documentation": {}
     },
@@ -357,7 +439,7 @@
         "kind": 6,
         "importPath": "budStudy.base.models",
         "description": "budStudy.base.models",
-        "peekOfCode": "class Topic(models.Model):\n    name = models.CharField(max_length=200)   \n    def __str__(self):\n        return self.name\nclass Room(models.Model):\n    host=  models.ForeignKey(User, on_delete=models.SET_NULL, null=True)\n    topic=  models.ForeignKey(Topic, on_delete=models.SET_NULL, null=True)\n    name = models.CharField(max_length=200)\n    descrription = models.TextField(null=True,blank=True)\n    # participants = ",
+        "peekOfCode": "class Topic(models.Model):\n    name = models.CharField(max_length=200)   \n    def __str__(self):\n        return self.name\nclass Room(models.Model):\n    host=  models.ForeignKey(User, on_delete=models.SET_NULL, null=True)\n    topic=  models.ForeignKey(Topic, on_delete=models.SET_NULL, null=True)\n    name = models.CharField(max_length=200)\n    descrription = models.TextField(null=True,blank=True)\n    participants = models.ManyToManyField(User, related_name='participants', blank=True)",
         "detail": "budStudy.base.models",
         "documentation": {}
     },
@@ -366,7 +448,7 @@
         "kind": 6,
         "importPath": "budStudy.base.models",
         "description": "budStudy.base.models",
-        "peekOfCode": "class Room(models.Model):\n    host=  models.ForeignKey(User, on_delete=models.SET_NULL, null=True)\n    topic=  models.ForeignKey(Topic, on_delete=models.SET_NULL, null=True)\n    name = models.CharField(max_length=200)\n    descrription = models.TextField(null=True,blank=True)\n    # participants = \n    updated = models.DateTimeField(auto_now=True)\n    created = models.DateTimeField(auto_now_add=True) \n    class Meta:\n        ordering=['-updated', 'created']",
+        "peekOfCode": "class Room(models.Model):\n    host=  models.ForeignKey(User, on_delete=models.SET_NULL, null=True)\n    topic=  models.ForeignKey(Topic, on_delete=models.SET_NULL, null=True)\n    name = models.CharField(max_length=200)\n    descrription = models.TextField(null=True,blank=True)\n    participants = models.ManyToManyField(User, related_name='participants', blank=True)\n    updated = models.DateTimeField(auto_now=True)\n    created = models.DateTimeField(auto_now_add=True) \n    class Meta:\n        ordering=['-updated', 'created']",
         "detail": "budStudy.base.models",
         "documentation": {}
     },
@@ -375,7 +457,7 @@
         "kind": 6,
         "importPath": "budStudy.base.models",
         "description": "budStudy.base.models",
-        "peekOfCode": "class message(models.Model):\n    user= models.ForeignKey(User, on_delete=models.CASCADE)\n    room = models.ForeignKey(Room, on_delete=models.CASCADE)\n    body = models.TextField()\n    updated = models.DateTimeField(auto_now=True)\n    created = models.DateTimeField(auto_now_add=True) \n    def __str__(self):\n        return self.body[0:50]",
+        "peekOfCode": "class message(models.Model):\n    user= models.ForeignKey(User, on_delete=models.CASCADE)\n    room = models.ForeignKey(Room, on_delete=models.CASCADE)\n    body = models.TextField()\n    updated = models.DateTimeField(auto_now=True)\n    created = models.DateTimeField(auto_now_add=True) \n    class Meta:\n        ordering=['-updated', 'created']\n    def __str__(self):\n        return self.body[0:50]",
         "detail": "budStudy.base.models",
         "documentation": {}
     },
@@ -384,7 +466,7 @@
         "kind": 5,
         "importPath": "budStudy.base.urls",
         "description": "budStudy.base.urls",
-        "peekOfCode": "urlpatterns = [\n    path('login/', views.loginPage, name='login'),\n    path('register/', views.registerPage, name='register'),\n    path('logout/', views.logoutUser, name='logout'),\n    path('', views.home, name='home'),\n    path('room/<str:pk>/', views.room, name='roomUrl'),\n    path('create-room/', views.createRoom, name='create-room'),\n    path('update-room/<str:pk>/', views.UpdateRoom, name='update-room'),\n    path('delete-room/<str:pk>/', views.DeleteRoom, name='delete-room'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('login/', views.loginPage, name='login'),\n    path('register/', views.registerPage, name='register'),\n    path('logout/', views.logoutUser, name='logout'),\n    path('', views.home, name='home'),\n    path('room/<str:pk>/', views.room, name='roomUrl'),\n     path('profile/<str:pk>/', views.profile, name='user-profile'),\n    path('create-room/', views.createRoom, name='create-room'),\n    path('update-room/<str:pk>/', views.UpdateRoom, name='update-room'),\n    path('delete-room/<str:pk>/', views.DeleteRoom, name='delete-room'),",
         "detail": "budStudy.base.urls",
         "documentation": {}
     },
@@ -429,7 +511,16 @@
         "kind": 2,
         "importPath": "budStudy.base.views",
         "description": "budStudy.base.views",
-        "peekOfCode": "def room(request,pk):\n    # room = None\n    # for i in rooms:\n    #     if i['id'] == pk:\n    #         room = i\n    room = Room.objects.get(id=pk)\n    messages = Room.message_set.all()\n    context = {'room':room, 'messages':messages}\n    return render(request, 'base/room.html', context)\n@login_required(login_url='login')",
+        "peekOfCode": "def room(request,pk):\n    # room = None\n    # for i in rooms:\n    #     if i['id'] == pk:\n    #         room = i\n    room = Room.objects.get(id=pk)\n    room_messages = room.message_set.all()\n    participants = room.participants.all()\n    if request.method == 'POST':\n        new_message = message.objects.create(",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def profile(request,pk):\n    user = User.objects.get(id=pk)\n    rooms = user.room_set.all()\n    room_messages = user.message_set.all()\n    topics = Topic.objects.all()\n    context = {'user':user,'rooms':rooms, 'topics':topics, 'room_messages':room_messages}\n    return render(request, 'base/profile.html', context)\n@login_required(login_url='login')\ndef createRoom(request):\n    form = RoomForm()",
         "detail": "budStudy.base.views",
         "documentation": {}
     },
@@ -438,7 +529,7 @@
         "kind": 2,
         "importPath": "budStudy.base.views",
         "description": "budStudy.base.views",
-        "peekOfCode": "def createRoom(request):\n    form = RoomForm()\n    if request.method == 'POST':\n        # print(request.POST)\n        form=RoomForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('home')\n    context = {'form':form}\n    return render(request, 'base/room_form.html', context)",
+        "peekOfCode": "def createRoom(request):\n    form = RoomForm()\n    if request.method == 'POST':\n        # print(request.POST)\n        form=RoomForm(request.POST)\n        if form.is_valid():\n            room = form.save(commit=False)\n            room.host = request.user\n            room.save()\n            return redirect('home')",
         "detail": "budStudy.base.views",
         "documentation": {}
     },
@@ -456,7 +547,16 @@
         "kind": 2,
         "importPath": "budStudy.base.views",
         "description": "budStudy.base.views",
-        "peekOfCode": "def DeleteRoom(request,pk):\n    room = Room.objects.get(id=pk)\n    if request.user != room.host:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        room.delete()\n        return redirect('home')\n    return render(request, 'base/delete.html', {'obj':room})",
+        "peekOfCode": "def DeleteRoom(request,pk):\n    room = Room.objects.get(id=pk)\n    if request.user != room.host:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        room.delete()\n        return redirect('home')\n    return render(request, 'base/delete.html', {'obj':room})\n@login_required(login_url='login')\ndef DeleteMessage(request,pk):",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteMessage",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def DeleteMessage(request,pk):\n    delMessage = message.objects.get(id=pk)\n    if request.user != delMessage.user:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        delMessage.delete()\n        return redirect('home')\n    return render(request, 'base/delete.html', {'obj':delMessage})",
         "detail": "budStudy.base.views",
         "documentation": {}
     },
@@ -591,7 +691,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -600,7 +700,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -609,7 +709,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -618,7 +718,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -627,7 +727,16 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "STATIC_URL = 'static/'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -636,7 +745,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.urls",
         "description": "budStudy.budStudy.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('base.urls'))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    # web application endpoint\n    path('', include('base.urls'))\n]",
         "detail": "budStudy.budStudy.urls",
         "documentation": {}
     },

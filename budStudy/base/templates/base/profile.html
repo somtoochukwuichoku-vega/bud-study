@@ -1,25 +1,55 @@
-{% extends 'main.html'%}
+{% extends 'main.html' %}
+
+{% load static %}
+
 
 {% block content %}
-<style>
-  .profile-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-  }
-</style>
+<main class="profile-page layout layout--3">
+  <div class="container">
+    <!-- Topics Start -->
+    {% include 'base/topics_components.html' %}
+    <!-- Topics End -->
 
-<h1>{{user.username}}</h1>
+    <!-- Room List Start -->
+    <div class="roomList">
+      <div class="profile">
+        <div class="profile__avatar">
+          <div class="avatar avatar--large active">
+            <!-- <img src="{{user.avatar.url}}" /> -->
+            <img src="{% static 'images/avatar.svg' %}" />
+          </div>
+        </div>
+        <div class="profile__info">
+          <h3>{{user.username}}</h3>
+          <p>@{{user.username}}</p>
+          {% if request.user == user %}
 
-<div class="profile-container">
-  <div>
-    {% include 'base/topics_components.html'%}
-  </div>
-  <div>
-    {% include 'base/feed_components.html'%}
-  </div>
-  <div>
-    {% include 'base/activity_components.html'%}
-  </div>
-</div>
+          <a href="edit profile goes here" class="btn btn--main btn--pill">Edit Profile</a>
+          {% endif %}
+        </div>
+        <div class="profile__about">
+          <h3>About</h3>
+          <p>
+            {{user.bio}}
+          </p>
+        </div>
+      </div>
 
-{%endblock%}
+      <div class="roomList__header">
+        <div>
+          <h2>Study Rooms Hosted by @User</a>
+          </h2>
+        </div>
+      </div>
+      {% include 'base/feed_components.html' %}
+
+
+    </div>
+    <!-- Room List End -->
+
+    <!-- Activities Start -->
+    {% include 'base/activity_component.html' %}
+    <!-- Activities End -->
+  </div>
+</main>
+{% endblock content %}
