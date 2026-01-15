@@ -1,10 +1,83 @@
 [
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -40,140 +113,11 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "fields",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
         "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "django.db.models.deletion",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
@@ -182,6 +126,30 @@
         "description": "django.forms",
         "isExtraImport": true,
         "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -202,19 +170,11 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -247,6 +207,22 @@
         "description": "django.http",
         "isExtraImport": true,
         "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -381,15 +357,6 @@
         "documentation": {}
     },
     {
-        "label": "ApiConfig",
-        "kind": 6,
-        "importPath": "budStudy.api.apps",
-        "description": "budStudy.api.apps",
-        "peekOfCode": "class ApiConfig(AppConfig):\n    name = 'api'",
-        "detail": "budStudy.api.apps",
-        "documentation": {}
-    },
-    {
         "label": "Migration",
         "kind": 6,
         "importPath": "budStudy.base.migrations.0001_initial",
@@ -430,7 +397,16 @@
         "kind": 6,
         "importPath": "budStudy.base.forms",
         "description": "budStudy.base.forms",
-        "peekOfCode": "class RoomForm(ModelForm):\n    class Meta:\n        model=Room\n        fields = '__all__'\n        exclude = ['host', 'participants']",
+        "peekOfCode": "class RoomForm(ModelForm):\n    class Meta:\n        model=Room\n        fields = '__all__'\n        exclude = ['host', 'participants']\nclass UserForm(ModelForm):\n    class Meta:\n        model = User\n        fields= ['username', 'email']",
+        "detail": "budStudy.base.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserForm",
+        "kind": 6,
+        "importPath": "budStudy.base.forms",
+        "description": "budStudy.base.forms",
+        "peekOfCode": "class UserForm(ModelForm):\n    class Meta:\n        model = User\n        fields= ['username', 'email']",
         "detail": "budStudy.base.forms",
         "documentation": {}
     },
@@ -529,7 +505,7 @@
         "kind": 2,
         "importPath": "budStudy.base.views",
         "description": "budStudy.base.views",
-        "peekOfCode": "def createRoom(request):\n    form = RoomForm()\n    if request.method == 'POST':\n        # print(request.POST)\n        form=RoomForm(request.POST)\n        if form.is_valid():\n            room = form.save(commit=False)\n            room.host = request.user\n            room.save()\n            return redirect('home')",
+        "peekOfCode": "def createRoom(request):\n    form = RoomForm()\n    topics = Topic.objects.all()\n    if request.method == 'POST':\n        # print(request.POST)\n        # form=RoomForm(request.POST)\n        # if form.is_valid():\n        #     room = form.save(commit=False)\n        #     room.host = request.user\n        #     room.save()",
         "detail": "budStudy.base.views",
         "documentation": {}
     },
@@ -538,7 +514,7 @@
         "kind": 2,
         "importPath": "budStudy.base.views",
         "description": "budStudy.base.views",
-        "peekOfCode": "def UpdateRoom(request, pk):\n    room = Room.objects.get(id=pk)\n    form = RoomForm(instance=room)\n    if request.user != room.host:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        # print(request.POST)\n        form=RoomForm(request.POST, instance=room)\n        if form.is_valid():\n            form.save()",
+        "peekOfCode": "def UpdateRoom(request, pk):\n    room = Room.objects.get(id=pk)\n    form = RoomForm(instance=room)\n    topics = Topic.objects.all()\n    if request.user != room.host:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        topic_name = request.POST.get('topic')\n        topic, created = Topic.objects.get_or_create(name=topic_name)\n        room.name = request.POST.get('name')",
         "detail": "budStudy.base.views",
         "documentation": {}
     },
@@ -556,7 +532,16 @@
         "kind": 2,
         "importPath": "budStudy.base.views",
         "description": "budStudy.base.views",
-        "peekOfCode": "def DeleteMessage(request,pk):\n    delMessage = message.objects.get(id=pk)\n    if request.user != delMessage.user:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        delMessage.delete()\n        return redirect('home')\n    return render(request, 'base/delete.html', {'obj':delMessage})",
+        "peekOfCode": "def DeleteMessage(request,pk):\n    delMessage = message.objects.get(id=pk)\n    if request.user != delMessage.user:\n        return HttpResponse('You are not allowed here')\n    if request.method == 'POST':\n        delMessage.delete()\n        return redirect('home')\n    return render(request, 'base/delete.html', {'obj':delMessage})\n@login_required(login_url='login')\ndef updateUser(request):",
+        "detail": "budStudy.base.views",
+        "documentation": {}
+    },
+    {
+        "label": "updateUser",
+        "kind": 2,
+        "importPath": "budStudy.base.views",
+        "description": "budStudy.base.views",
+        "peekOfCode": "def updateUser(request):\n    user = request.user\n    form = UserForm(instance=user)\n    if request.method == 'POST':\n        form = UserForm(request.POST, instance=user)\n        if form.is_valid():\n            form.save()\n            return redirect('user-profile', pk=user.id)\n    return render(request, 'base/update-user.html', {'form':form})",
         "detail": "budStudy.base.views",
         "documentation": {}
     },
