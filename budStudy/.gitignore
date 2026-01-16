@@ -3,6 +3,13 @@ node_modules/
 .npm
 .eslintcache
 
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
 # Environment Variables (SENSITIVE)
 .env
 .env.local

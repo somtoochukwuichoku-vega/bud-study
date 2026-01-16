@@ -66,4 +66,39 @@ if (photoInput)
 
 // Scroll to Bottom
 const conversationThread = document.querySelector(".room__box");
-if (conversationThread) conversationThread.scrollTop = conversationThread.scrollHeight;
+if (conversationThread)
+  conversationThread.scrollTop = conversationThread.scrollHeight;
+
+// budStudy/static/js/script.js
+
+const loader = document.getElementById("loader-overlay");
+
+document.querySelectorAll("form").forEach((form) => {
+  form.addEventListener("submit", () => {
+    console.log("Form submitted, showing loader");
+    if (loader) loader.classList.add("loader-visible");
+  });
+});
+
+document.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    const href = link.getAttribute("href");
+
+    if (
+      href &&
+      href !== "#" &&
+      !href.startsWith("javascript") &&
+      !link.classList.contains("dropdown-button")
+    ) {
+      console.log("Link clicked, showing loader", href);
+      if (loader) loader.classList.add("loader-visible");
+    }
+  });
+});
+
+window.onpageshow = function (event) {
+  if (event.persisted) {
+    console.log("Page persisted, hiding loader");
+    if (loader) loader.classList.remove("loader-visible");
+  }
+};
