@@ -1,5 +1,85 @@
 [
     {
+        "label": "model",
+        "importPath": "pyexpat",
+        "description": "pyexpat",
+        "isExtraImport": true,
+        "detail": "pyexpat",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -178,30 +258,6 @@
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
         "label": "HttpResponse",
         "importPath": "django.http",
         "description": "django.http",
@@ -282,6 +338,14 @@
         "documentation": {}
     },
     {
+        "label": "TRUE",
+        "importPath": "pickle",
+        "description": "pickle",
+        "isExtraImport": true,
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -354,6 +418,51 @@
         "importPath": "site",
         "description": "site",
         "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "RoomSerializer",
+        "kind": 6,
+        "importPath": "budStudy.base.api.serializers",
+        "description": "budStudy.base.api.serializers",
+        "peekOfCode": "class RoomSerializer(ModelSerializer):\n    class Meta:\n        model=Room\n        fields = '__all__'",
+        "detail": "budStudy.base.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "budStudy.base.api.urls",
+        "description": "budStudy.base.api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.getRoutes),\n    path('rooms/', views.getRooms),\n    path('rooms/<str:pk>/', views.getRoom)\n]",
+        "detail": "budStudy.base.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "getRoutes",
+        "kind": 2,
+        "importPath": "budStudy.base.api.views",
+        "description": "budStudy.base.api.views",
+        "peekOfCode": "def getRoutes(request):\n    routes = [\n        'GET /api',\n        'GET /api/rooms',\n        'GET /api/rooms/:id',\n    ]\n    return Response(routes)\n@api_view(['GET'])\ndef getRooms(request):\n    rooms = Room.objects.all()",
+        "detail": "budStudy.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "getRooms",
+        "kind": 2,
+        "importPath": "budStudy.base.api.views",
+        "description": "budStudy.base.api.views",
+        "peekOfCode": "def getRooms(request):\n    rooms = Room.objects.all()\n    serializer = RoomSerializer(rooms, many = True)\n    return Response(serializer.data)\n@api_view(['GET'])\ndef getRoom(request,pk):\n    room = Room.objects.get(id=pk)\n    serializer = RoomSerializer(room, many = False)\n    return Response(serializer.data)",
+        "detail": "budStudy.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "getRoom",
+        "kind": 2,
+        "importPath": "budStudy.base.api.views",
+        "description": "budStudy.base.api.views",
+        "peekOfCode": "def getRoom(request,pk):\n    room = Room.objects.get(id=pk)\n    serializer = RoomSerializer(room, many = False)\n    return Response(serializer.data)",
+        "detail": "budStudy.base.api.views",
         "documentation": {}
     },
     {
@@ -595,7 +704,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'base.apps.BaseConfig',\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'base.apps.BaseConfig',\n    'rest_framework',\n    'corsheaders',",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -604,7 +713,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'budStudy.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    \"corsheaders.middleware.CorsMiddleware\",\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -685,7 +794,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]\n# CORS_ALLOWED_ORIGINS = [",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -694,7 +803,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://example.com\",",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -703,7 +812,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://example.com\",\n#     \"https://sub.example.com\",",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -712,7 +821,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://example.com\",\n#     \"https://sub.example.com\",\n#     \"http://localhost:3000\",\n#     \"http://127.0.0.1:9000\",\n# ]",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -721,7 +830,16 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.settings",
         "description": "budStudy.budStudy.settings",
-        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / 'static'\n]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://example.com\",\n#     \"https://sub.example.com\",\n#     \"http://localhost:3000\",\n#     \"http://127.0.0.1:9000\",\n# ]\nCORS_ALLOWED_ORIGINS = True",
+        "detail": "budStudy.budStudy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "budStudy.budStudy.settings",
+        "description": "budStudy.budStudy.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = True",
         "detail": "budStudy.budStudy.settings",
         "documentation": {}
     },
@@ -730,7 +848,7 @@
         "kind": 5,
         "importPath": "budStudy.budStudy.urls",
         "description": "budStudy.budStudy.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    # web application endpoint\n    path('', include('base.urls'))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    # web application endpoint\n    path('', include('base.urls')),\n    path('api/', include('base.api.urls'))\n]",
         "detail": "budStudy.budStudy.urls",
         "documentation": {}
     },
